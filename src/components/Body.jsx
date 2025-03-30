@@ -41,10 +41,7 @@ const Body = () => {
          <NavLink className= {({isActive})=>`md:pr-0 pr-12  font-semibold pt-1 md:pt-0 text-lg  ${isActive ? 'text-red-500 border-b-[2px] border-red-900':''} ${isVisible?"block":"hidden"} sm:block md:block relative pr-6 left-[18vw]`} to='/contact'>Contact me</NavLink>
             </div>
            </div>
-           <span className="pl-48 pb-2 md:pl-2 pt-6 p md:pt-4" onClick={()=> {
-            setDarkMode(!darkMode)
-            toggleHandler()
-          }}> {darkMode ? <MdOutlineDarkMode className={``} /> : <MdOutlineLightMode  className={`text-white`} /> } </span> 
+          
         
           </div>
    </div>
